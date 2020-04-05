@@ -1,0 +1,9 @@
+ reference:https://www.jianshu.com/p/34185e95d52c
+1:download http://www.ffmpeg.org/download.html
+2:cd ffmpeg #进入解压后的源码包(出文件夹外，文本文件只有configure,MakeFile[make 后会有config.h文本文件])
+3:新建文件夹myFFmpeg #安装目录
+4:./configure --prefix=myFFmpeg --enable-shared --disable-static
+5:make
+6:make install
+7:编写测试代码，存放在myExample，运行过程见其txt.txt
+tip:version 4.2.2

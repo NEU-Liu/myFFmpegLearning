@@ -1,0 +1,4 @@
+run demo.c 
+1: gcc -o demo cc.c  -I../myFFmpeg/include -L../myFFmpeg/lib/ -lavformat -lavfilter -lavcodec -lswscale -lavutil -lswresample  -lm -lpthread
+2: export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:../myFFmpeg/lib
+3: ./demo
